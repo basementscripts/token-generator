@@ -1,7 +1,7 @@
 {
 	"name": "@basementscripts/token-generator",
 	"description": "Node.js token generator",
-	"version": "0.1.1",
+	"version": "1.0.0",
 	"main": "lib/index.js",
 	"typings": "lib/index.d.ts",
 	"directories": {
