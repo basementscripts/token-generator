@@ -15,7 +15,8 @@
 		"build": "yarn tsc",
 		"tsc": "rm -rf lib && tsc",
 		"watch": "nodemon --watch src --ext ts --exec yarn tsc",
-		"test": "NODE_ENV=test jest --forceExit --detectOpenHandles --coverage --verbose --watchAll",
+		"test": "NODE_ENV=test jest --forceExit --detectOpenHandles --coverage --verbose",
+		"test:watch": "yarn test --watchAll",
 		"badge": "make-coverage-badge --output-path ./badge.svg"
 	},
 	"repository": {
